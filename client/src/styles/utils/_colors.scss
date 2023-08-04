@@ -1,0 +1,23 @@
+@import '../../styles/utils/variables';
+
+.blue 
+{
+  color: $blue-color;
+}
+
+.bg-gray 
+{
+  background: $gray-color;
+}
+
+.red 
+{
+  color: $red-color;
+}
+
+
+.bg-blue 
+{
+  background: $blue-color;
+  color: white;
+}

@@ -1,0 +1,4 @@
+[] - CHANGE PASSWORD REGEX TO MAX 20 CHARACTER /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,20}$/
+[] - CHANGE PASSWORD ERROR MESSAGE TO "Password should be 6-20 characters long with at least one uppercase letter and special characters."
+[] - ADD EMAIL REGEX VALIDATION /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+

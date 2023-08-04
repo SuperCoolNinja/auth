@@ -1,0 +1,15 @@
+.btn 
+{
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  border: 0.1rem solid rgba(43, 42, 42, 0.466);
+
+  &:hover
+  {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,43 @@
+
+@import '../../styles/utils/variables';
+
+
+
+.container 
+{
+  display: flex;
+  margin: 10rem auto;
+  width: 50rem;
+  height: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #dddddd;
+
+  .wrapper
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 0 2rem;
+    gap: 1rem;
+  }
+}
+
+.new_text
+{
+  text-align: center; 
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: $blue-color;
+}
+
+
+@media screen and (width < 768px) {
+  .container 
+  {
+    width: 95%;
+  }
+}

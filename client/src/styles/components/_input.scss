@@ -1,0 +1,32 @@
+@import '../../styles/components/auth';
+@import '../../styles/utils/spacing';
+@import '../../styles/utils/variables';
+
+.input
+{
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: $dark-gray-color solid 0.1rem;
+  width: 100%;
+
+  &:focus
+  {
+    border: $dark-gray-color solid 0.1rem;
+    outline: solid 0.1rem #393a4186;
+  }
+}
+
+.label
+{
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.error
+{
+  color:$red-color;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
